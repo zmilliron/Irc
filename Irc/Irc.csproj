@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>IrcLibKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F78B733C-A14E-4288-A54B-7C1E28AFBB90}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Irc</RootNamespace>
+    <AssemblyName>Irc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile344</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Irc.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Irc.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AlreadyRegisteredException.cs" />
+    <Compile Include="AwayEventArgs.cs" />
+    <Compile Include="Channel.cs" />
+    <Compile Include="ChannelCreationEventArgs.cs" />
+    <Compile Include="ChannelCreatorEventArgs.cs" />
+    <Compile Include="ChannelListEventArgs.cs" />
+    <Compile Include="ChannelManagementListEventArgs.cs" />
+    <Compile Include="ChannelModes.cs" />
+    <Compile Include="ChannelModeEventArgs.cs" />
+    <Compile Include="ChannelModeString.cs" />
+    <Compile Include="ChannelUrlEventArgs.cs" />
+    <Compile Include="ChannelUser.cs" />
+    <Compile Include="Commands.cs" />
+    <Compile Include="ConnectionStates.cs" />
+    <Compile Include="Ctcp\CtcpCommands.cs" />
+    <Compile Include="Ctcp\CtcpEventArgs.cs" />
+    <Compile Include="Ctcp\CtcpException.cs" />
+    <Compile Include="Ctcp\Dcc\DccChatEventArgs.cs" />
+    <Compile Include="Ctcp\Dcc\DccCommands.cs" />
+    <Compile Include="Ctcp\Dcc\DccErrorEventArgs.cs" />
+    <Compile Include="Ctcp\Dcc\DccException.cs" />
+    <Compile Include="Ctcp\Dcc\DccResumeEventArgs.cs" />
+    <Compile Include="Ctcp\Dcc\DccSendEventArgs.cs" />
+    <Compile Include="Ctcp\Dcc\FileTooLargeException.cs" />
+    <Compile Include="Ctcp\Dcc\IDcc.cs" />
+    <Compile Include="Ctcp\ICtcp.cs" />
+    <Compile Include="DataEventArgs.cs" />
+    <Compile Include="DuplicateModeException.cs" />
+    <Compile Include="ErrorEventArgs.cs" />
+    <Compile Include="Friend.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="IConnection.cs" />
+    <Compile Include="IgnoredUser.cs" />
+    <Compile Include="IIrcxProtocol.cs" />
+    <Compile Include="InviteEventArgs.cs" />
+    <Compile Include="IrcChannelName.cs" />
+    <Compile Include="IrcClient.cs" />
+    <Compile Include="IrcEventArgs.cs" />
+    <Compile Include="IrcMessage.cs" />
+    <Compile Include="IrcMessageEventArgs.cs" />
+    <Compile Include="IrcNameBase.cs" />
+    <Compile Include="IrcNickname.cs" />
+    <Compile Include="IrcPassword.cs" />
+    <Compile Include="IrcUsername.cs" />
+    <Compile Include="IRfc2812.cs" />
+    <Compile Include="JoinEventArgs.cs" />
+    <Compile Include="KickEventArgs.cs" />
+    <Compile Include="LinksEventArgs.cs" />
+    <Compile Include="Mode.cs" />
+    <Compile Include="ClientModeEventArgs.cs" />
+    <Compile Include="NameListEventArgs.cs" />
+    <Compile Include="NameListItem.cs" />
+    <Compile Include="NetworkProfile.cs" />
+    <Compile Include="NickChangeEventArgs.cs" />
+    <Compile Include="NoticeEventArgs.cs" />
+    <Compile Include="Numerics.cs" />
+    <Compile Include="Parser.cs" />
+    <Compile Include="ParsingErrorEventArgs.cs" />
+    <Compile Include="PartEventArgs.cs" />
+    <Compile Include="PrivateMessage.cs" />
+    <Compile Include="PrivateMessageBase.cs" />
+    <Compile Include="PrivateMessageEventArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QuitEventArgs.cs" />
+    <Compile Include="ReadOnlyDictionary.cs" />
+    <Compile Include="Properties\Resources.es.Designer.cs">
+      <DependentUpon>Resources.es.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ServiceListEventArgs.cs" />
+    <Compile Include="SilenceEventArgs.cs" />
+    <Compile Include="SocketErrorEventArgs.cs" />
+    <Compile Include="SupportedOptions.cs" />
+    <Compile Include="SupportedOptionsEventArgs.cs" />
+    <Compile Include="TooManyChannelsException.cs" />
+    <Compile Include="TopicAuthorEventArgs.cs" />
+    <Compile Include="TopicChangeEventArgs.cs" />
+    <Compile Include="TopicEventArgs.cs" />
+    <Compile Include="UnknownCommandEventArgs.cs" />
+    <Compile Include="ReplyEventArgs.cs" />
+    <Compile Include="UnregisteredNicknameException.cs" />
+    <Compile Include="UnsupportedModeException.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserChannelModes.cs" />
+    <Compile Include="UserEventArgs.cs" />
+    <Compile Include="UserHostEventArgs.cs" />
+    <Compile Include="ClientModes.cs" />
+    <Compile Include="ClientModeString.cs" />
+    <Compile Include="UserNotFoundException.cs" />
+    <Compile Include="UsersCommandEventArgs.cs" />
+    <Compile Include="VersionEventArgs.cs" />
+    <Compile Include="WatchEventArgs.cs" />
+    <Compile Include="WhoEventArgs.cs" />
+    <Compile Include="WhoIsEventArgs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.es.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ctcp\Dcc\DccClassesDiagram.cd" />
+    <None Include="Diagrams\ClassDiagram.cd" />
+    <None Include="IrcLibKey.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

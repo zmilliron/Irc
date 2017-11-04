@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Irc.IrcClient">
+    <Position X="0.75" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>n2W5ov5Y3D8n79dHt/7KXev/D37140+Tf86dE8rf180=</HashCode>
+      <FileName>IrcClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Irc.Channel">
+    <Position X="12" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>dOfjMyStRCADEGIkMaJsMhyDkIshN8CizCmDA7hVWII=</HashCode>
+      <FileName>Channel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Irc.PrivateMessage">
+    <Position X="15.25" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQCAAAAAAAAAAAAAAAQAEQ=</HashCode>
+      <FileName>PrivateMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Irc.PrivateMessageBase">
+    <Position X="18.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAAAEIEECAARBCiAAAAAAAgAAAAAABQAEQ=</HashCode>
+      <FileName>PrivateMessageBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Irc.IRfc2812">
+    <Position X="4.25" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>B0QRglpYQAMiCBVEtSJKWAv0BULAoE0BL4qMAUjFEEk=</HashCode>
+      <FileName>IRfc2812.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Irc.IIrcxProtocol">
+    <Position X="8.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAExgCQAHAAEKkIEAEiADYACCliBAAISHAAcAEjIFIQ=</HashCode>
+      <FileName>IIrcxProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

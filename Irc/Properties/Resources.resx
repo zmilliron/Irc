@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyJoinedChannel" xml:space="preserve">
+    <value>You have already joined {0}.</value>
+  </data>
+  <data name="AlreadyRegisteredExceptionMessage" xml:space="preserve">
+    <value>The connection has already been registered on the network.</value>
+  </data>
+  <data name="BanExceptionListAtCapacity" xml:space="preserve">
+    <value>Ban exception list is full ({0}).</value>
+  </data>
+  <data name="BanListAtCapacity" xml:space="preserve">
+    <value>Ban list is full ({0}).</value>
+  </data>
+  <data name="ChannelNameFormatError" xml:space="preserve">
+    <value>The channel name is not in the correct format.</value>
+  </data>
+  <data name="ChannelNameTooLong" xml:space="preserve">
+    <value>Channel name must be less than {0} characters on this server.</value>
+  </data>
+  <data name="ConnectionAlreadyOpenError" xml:space="preserve">
+    <value>The connection is already open.</value>
+  </data>
+  <data name="ConnectionLost" xml:space="preserve">
+    <value>***The connection to the server was lost.</value>
+  </data>
+  <data name="DccTransferInProgress" xml:space="preserve">
+    <value>Transfer already in progress.</value>
+  </data>
+  <data name="DefaultAwayMessage" xml:space="preserve">
+    <value>I am currently away.</value>
+  </data>
+  <data name="DuplicateModeExceptionMessage" xml:space="preserve">
+    <value>Mode string cannot contain duplicate entries for mode {0}.</value>
+  </data>
+  <data name="FileTooLargeException" xml:space="preserve">
+    <value>The actual file size is larger than the file size claimed by the remote client.</value>
+  </data>
+  <data name="FriendsListNotSupported" xml:space="preserve">
+    <value>Friends list is not supported on this server.</value>
+  </data>
+  <data name="IgnoreListNotSupported" xml:space="preserve">
+    <value>Ignore list is not supported on this server.</value>
+  </data>
+  <data name="InvalidCastNickname" xml:space="preserve">
+    <value>String "{0}" is not a valid nickname.</value>
+  </data>
+  <data name="InvalidUriScheme" xml:space="preserve">
+    <value>The specified uri was invalid.  A uri must be in one of the following forms:
+irc://&lt;host&gt;[:&lt;port&gt;]/[&lt;channel&gt;[?&lt;password&gt;]]
+irc6://&lt;host&gt;[:&lt;port&gt;]/[&lt;channel&gt;[?&lt;password&gt;]]
+ircs://&lt;host&gt;[:&lt;port&gt;]/[&lt;channel&gt;[?&lt;password&gt;]]</value>
+  </data>
+  <data name="InvitationExceptionListAtCapacity" xml:space="preserve">
+    <value>Invitation exception list is at capacity ({0}).</value>
+  </data>
+  <data name="InviteCommandDisabled" xml:space="preserve">
+    <value>Channel invitations have been disabled.</value>
+  </data>
+  <data name="IrcMessageFormatError" xml:space="preserve">
+    <value>IRC message string not in the correct format.</value>
+  </data>
+  <data name="KickCommandDisabled" xml:space="preserve">
+    <value>The KICK command has been disabled.</value>
+  </data>
+  <data name="KnockNotSupported" xml:space="preserve">
+    <value>Knocking is not supported on this server.</value>
+  </data>
+  <data name="LessThanOneError" xml:space="preserve">
+    <value>Value must be greater than zero.</value>
+  </data>
+  <data name="NameAlreadyExistsError" xml:space="preserve">
+    <value>A user with the specified nickname already exists.</value>
+  </data>
+  <data name="NameNotFoundError" xml:space="preserve">
+    <value>A user with the specified nickname was not found.</value>
+  </data>
+  <data name="NegativeNumberError" xml:space="preserve">
+    <value>Value cannot be a negative number.</value>
+  </data>
+  <data name="NewServer" xml:space="preserve">
+    <value>&lt;New Server&gt;</value>
+  </data>
+  <data name="NicknameFormatError" xml:space="preserve">
+    <value>The nickname is not in the correct format.</value>
+  </data>
+  <data name="NicknameTooLongError" xml:space="preserve">
+    <value>The nickname exceeds the maximum length allowed on this network.</value>
+  </data>
+  <data name="NotConnectedMessage" xml:space="preserve">
+    <value>A connection has not been established with a server.</value>
+  </data>
+  <data name="NotRegisteredMessage" xml:space="preserve">
+    <value>The command cannot be sent until the connection has been registered.</value>
+  </data>
+  <data name="NotVoicedError" xml:space="preserve">
+    <value>Permission required to speak while moderated.</value>
+  </data>
+  <data name="NullNicknameError" xml:space="preserve">
+    <value>Nickname cannot be null.</value>
+  </data>
+  <data name="OnlyRegisteredSpeakError" xml:space="preserve">
+    <value>Only registered users may speak in the channel.</value>
+  </data>
+  <data name="OpOrHalfOpStatusRequired" xml:space="preserve">
+    <value>Channel operator or half-operator status required.</value>
+  </data>
+  <data name="OpStatusRequired" xml:space="preserve">
+    <value>Channel operator status required.</value>
+  </data>
+  <data name="PasswordFormatError" xml:space="preserve">
+    <value>The password is not in the correct format.</value>
+  </data>
+  <data name="PasswordLengthError" xml:space="preserve">
+    <value>Passwords must be less than 24 characters.</value>
+  </data>
+  <data name="PortOutOfRangeError" xml:space="preserve">
+    <value>A port number must be between 1 and 65535.</value>
+  </data>
+  <data name="ReconnectCancelled" xml:space="preserve">
+    <value>Reconnection cancelled by user.</value>
+  </data>
+  <data name="ReconnectError" xml:space="preserve">
+    <value>***An error was encountered when reconnecting to the server:{0}{0}{1}</value>
+  </data>
+  <data name="Reconnecting" xml:space="preserve">
+    <value>***Reconnecting...</value>
+  </data>
+  <data name="ReconnectingInTen" xml:space="preserve">
+    <value>***Reconnecting in 10 seconds</value>
+  </data>
+  <data name="ResponseFormatError" xml:space="preserve">
+    <value>Response string is not in the correct format.</value>
+  </data>
+  <data name="SelfMessageError" xml:space="preserve">
+    <value>You don't need IRC to talk to yourself.</value>
+  </data>
+  <data name="TargetNameFormatError" xml:space="preserve">
+    <value>The target is not a valid nickname or channel name.</value>
+  </data>
+  <data name="TooManyChannels" xml:space="preserve">
+    <value>You have reached the channel limit on this server ({0}).{1}{1}Leave a channel before joining a new one.</value>
+  </data>
+  <data name="TooManyPasswords" xml:space="preserve">
+    <value>There are more passwords supplied than channel names.</value>
+  </data>
+  <data name="TopicAuthorOnly" xml:space="preserve">
+    <value>Set by {0}</value>
+  </data>
+  <data name="TopicInfo" xml:space="preserve">
+    <value>Set by {0} on {1}</value>
+  </data>
+  <data name="TopicInfoUnavailable" xml:space="preserve">
+    <value>Topic information unavailable.</value>
+  </data>
+  <data name="TopicTimeOnly" xml:space="preserve">
+    <value>Set on {0}</value>
+  </data>
+  <data name="UnregisteredNicknameError" xml:space="preserve">
+    <value>You must register your nickname first.</value>
+  </data>
+  <data name="UnsupportedChannelModeExceptionMessage" xml:space="preserve">
+    <value>The specified channel mode is not supported.</value>
+  </data>
+  <data name="UnsupportedChannelModes" xml:space="preserve">
+    <value>Unsupported channel modes: {0}</value>
+  </data>
+  <data name="UnsupportedModeExceptionMessage" xml:space="preserve">
+    <value>The specified mode is not supported.</value>
+  </data>
+  <data name="UserIPNotSupported" xml:space="preserve">
+    <value>UserIP command not supported by this server.</value>
+  </data>
+  <data name="UserNameFormatError" xml:space="preserve">
+    <value>The username is not in the correct format.</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>The specified user was not found.</value>
+  </data>
+</root>
