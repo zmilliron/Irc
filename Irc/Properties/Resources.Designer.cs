@@ -22,7 +22,7 @@ namespace Irc.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Irc.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Irc.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Irc.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to You have already joined {0}..
         /// </summary>
-        internal static string AlreadyJoinedChannel {
+        public static string AlreadyJoinedChannel {
             get {
                 return ResourceManager.GetString("AlreadyJoinedChannel", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The connection has already been registered on the network..
         /// </summary>
-        internal static string AlreadyRegisteredExceptionMessage {
+        public static string AlreadyRegisteredExceptionMessage {
             get {
                 return ResourceManager.GetString("AlreadyRegisteredExceptionMessage", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Ban exception list is full ({0})..
         /// </summary>
-        internal static string BanExceptionListAtCapacity {
+        public static string BanExceptionListAtCapacity {
             get {
                 return ResourceManager.GetString("BanExceptionListAtCapacity", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Ban list is full ({0})..
         /// </summary>
-        internal static string BanListAtCapacity {
+        public static string BanListAtCapacity {
             get {
                 return ResourceManager.GetString("BanListAtCapacity", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The channel name is not in the correct format..
         /// </summary>
-        internal static string ChannelNameFormatError {
+        public static string ChannelNameFormatError {
             get {
                 return ResourceManager.GetString("ChannelNameFormatError", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Channel name must be less than {0} characters on this server..
         /// </summary>
-        internal static string ChannelNameTooLong {
+        public static string ChannelNameTooLong {
             get {
                 return ResourceManager.GetString("ChannelNameTooLong", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The connection is already open..
         /// </summary>
-        internal static string ConnectionAlreadyOpenError {
+        public static string ConnectionAlreadyOpenError {
             get {
                 return ResourceManager.GetString("ConnectionAlreadyOpenError", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ***The connection to the server was lost..
         /// </summary>
-        internal static string ConnectionLost {
+        public static string ConnectionLost {
             get {
                 return ResourceManager.GetString("ConnectionLost", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Transfer already in progress..
         /// </summary>
-        internal static string DccTransferInProgress {
+        public static string DccTransferInProgress {
             get {
                 return ResourceManager.GetString("DccTransferInProgress", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to I am currently away..
         /// </summary>
-        internal static string DefaultAwayMessage {
+        public static string DefaultAwayMessage {
             get {
                 return ResourceManager.GetString("DefaultAwayMessage", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Mode string cannot contain duplicate entries for mode {0}..
         /// </summary>
-        internal static string DuplicateModeExceptionMessage {
+        public static string DuplicateModeExceptionMessage {
             get {
                 return ResourceManager.GetString("DuplicateModeExceptionMessage", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The actual file size is larger than the file size claimed by the remote client..
         /// </summary>
-        internal static string FileTooLargeException {
+        public static string FileTooLargeException {
             get {
                 return ResourceManager.GetString("FileTooLargeException", resourceCulture);
             }
@@ -171,7 +171,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Friends list is not supported on this server..
         /// </summary>
-        internal static string FriendsListNotSupported {
+        public static string FriendsListNotSupported {
             get {
                 return ResourceManager.GetString("FriendsListNotSupported", resourceCulture);
             }
@@ -180,7 +180,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Ignore list is not supported on this server..
         /// </summary>
-        internal static string IgnoreListNotSupported {
+        public static string IgnoreListNotSupported {
             get {
                 return ResourceManager.GetString("IgnoreListNotSupported", resourceCulture);
             }
@@ -189,7 +189,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to String &quot;{0}&quot; is not a valid nickname..
         /// </summary>
-        internal static string InvalidCastNickname {
+        public static string InvalidCastNickname {
             get {
                 return ResourceManager.GetString("InvalidCastNickname", resourceCulture);
             }
@@ -201,7 +201,7 @@ namespace Irc.Properties {
         ///irc6://&lt;host&gt;[:&lt;port&gt;]/[&lt;channel&gt;[?&lt;password&gt;]]
         ///ircs://&lt;host&gt;[:&lt;port&gt;]/[&lt;channel&gt;[?&lt;password&gt;]].
         /// </summary>
-        internal static string InvalidUriScheme {
+        public static string InvalidUriScheme {
             get {
                 return ResourceManager.GetString("InvalidUriScheme", resourceCulture);
             }
@@ -210,7 +210,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Invitation exception list is at capacity ({0})..
         /// </summary>
-        internal static string InvitationExceptionListAtCapacity {
+        public static string InvitationExceptionListAtCapacity {
             get {
                 return ResourceManager.GetString("InvitationExceptionListAtCapacity", resourceCulture);
             }
@@ -219,7 +219,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Channel invitations have been disabled..
         /// </summary>
-        internal static string InviteCommandDisabled {
+        public static string InviteCommandDisabled {
             get {
                 return ResourceManager.GetString("InviteCommandDisabled", resourceCulture);
             }
@@ -228,7 +228,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to IRC message string not in the correct format..
         /// </summary>
-        internal static string IrcMessageFormatError {
+        public static string IrcMessageFormatError {
             get {
                 return ResourceManager.GetString("IrcMessageFormatError", resourceCulture);
             }
@@ -237,7 +237,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The KICK command has been disabled..
         /// </summary>
-        internal static string KickCommandDisabled {
+        public static string KickCommandDisabled {
             get {
                 return ResourceManager.GetString("KickCommandDisabled", resourceCulture);
             }
@@ -246,7 +246,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Knocking is not supported on this server..
         /// </summary>
-        internal static string KnockNotSupported {
+        public static string KnockNotSupported {
             get {
                 return ResourceManager.GetString("KnockNotSupported", resourceCulture);
             }
@@ -255,7 +255,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Value must be greater than zero..
         /// </summary>
-        internal static string LessThanOneError {
+        public static string LessThanOneError {
             get {
                 return ResourceManager.GetString("LessThanOneError", resourceCulture);
             }
@@ -264,7 +264,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to A user with the specified nickname already exists..
         /// </summary>
-        internal static string NameAlreadyExistsError {
+        public static string NameAlreadyExistsError {
             get {
                 return ResourceManager.GetString("NameAlreadyExistsError", resourceCulture);
             }
@@ -273,7 +273,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to A user with the specified nickname was not found..
         /// </summary>
-        internal static string NameNotFoundError {
+        public static string NameNotFoundError {
             get {
                 return ResourceManager.GetString("NameNotFoundError", resourceCulture);
             }
@@ -282,7 +282,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Value cannot be a negative number..
         /// </summary>
-        internal static string NegativeNumberError {
+        public static string NegativeNumberError {
             get {
                 return ResourceManager.GetString("NegativeNumberError", resourceCulture);
             }
@@ -291,7 +291,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to &lt;New Server&gt;.
         /// </summary>
-        internal static string NewServer {
+        public static string NewServer {
             get {
                 return ResourceManager.GetString("NewServer", resourceCulture);
             }
@@ -300,7 +300,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The nickname is not in the correct format..
         /// </summary>
-        internal static string NicknameFormatError {
+        public static string NicknameFormatError {
             get {
                 return ResourceManager.GetString("NicknameFormatError", resourceCulture);
             }
@@ -309,7 +309,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The nickname exceeds the maximum length allowed on this network..
         /// </summary>
-        internal static string NicknameTooLongError {
+        public static string NicknameTooLongError {
             get {
                 return ResourceManager.GetString("NicknameTooLongError", resourceCulture);
             }
@@ -318,7 +318,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to A connection has not been established with a server..
         /// </summary>
-        internal static string NotConnectedMessage {
+        public static string NotConnectedMessage {
             get {
                 return ResourceManager.GetString("NotConnectedMessage", resourceCulture);
             }
@@ -327,7 +327,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The command cannot be sent until the connection has been registered..
         /// </summary>
-        internal static string NotRegisteredMessage {
+        public static string NotRegisteredMessage {
             get {
                 return ResourceManager.GetString("NotRegisteredMessage", resourceCulture);
             }
@@ -336,7 +336,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Permission required to speak while moderated..
         /// </summary>
-        internal static string NotVoicedError {
+        public static string NotVoicedError {
             get {
                 return ResourceManager.GetString("NotVoicedError", resourceCulture);
             }
@@ -345,7 +345,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Nickname cannot be null..
         /// </summary>
-        internal static string NullNicknameError {
+        public static string NullNicknameError {
             get {
                 return ResourceManager.GetString("NullNicknameError", resourceCulture);
             }
@@ -354,7 +354,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Only registered users may speak in the channel..
         /// </summary>
-        internal static string OnlyRegisteredSpeakError {
+        public static string OnlyRegisteredSpeakError {
             get {
                 return ResourceManager.GetString("OnlyRegisteredSpeakError", resourceCulture);
             }
@@ -363,7 +363,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Channel operator or half-operator status required..
         /// </summary>
-        internal static string OpOrHalfOpStatusRequired {
+        public static string OpOrHalfOpStatusRequired {
             get {
                 return ResourceManager.GetString("OpOrHalfOpStatusRequired", resourceCulture);
             }
@@ -372,7 +372,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Channel operator status required..
         /// </summary>
-        internal static string OpStatusRequired {
+        public static string OpStatusRequired {
             get {
                 return ResourceManager.GetString("OpStatusRequired", resourceCulture);
             }
@@ -381,7 +381,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The password is not in the correct format..
         /// </summary>
-        internal static string PasswordFormatError {
+        public static string PasswordFormatError {
             get {
                 return ResourceManager.GetString("PasswordFormatError", resourceCulture);
             }
@@ -390,7 +390,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Passwords must be less than 24 characters..
         /// </summary>
-        internal static string PasswordLengthError {
+        public static string PasswordLengthError {
             get {
                 return ResourceManager.GetString("PasswordLengthError", resourceCulture);
             }
@@ -399,7 +399,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to A port number must be between 1 and 65535..
         /// </summary>
-        internal static string PortOutOfRangeError {
+        public static string PortOutOfRangeError {
             get {
                 return ResourceManager.GetString("PortOutOfRangeError", resourceCulture);
             }
@@ -408,7 +408,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Reconnection cancelled by user..
         /// </summary>
-        internal static string ReconnectCancelled {
+        public static string ReconnectCancelled {
             get {
                 return ResourceManager.GetString("ReconnectCancelled", resourceCulture);
             }
@@ -417,7 +417,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ***An error was encountered when reconnecting to the server:{0}{0}{1}.
         /// </summary>
-        internal static string ReconnectError {
+        public static string ReconnectError {
             get {
                 return ResourceManager.GetString("ReconnectError", resourceCulture);
             }
@@ -426,7 +426,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ***Reconnecting....
         /// </summary>
-        internal static string Reconnecting {
+        public static string Reconnecting {
             get {
                 return ResourceManager.GetString("Reconnecting", resourceCulture);
             }
@@ -435,7 +435,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ***Reconnecting in 10 seconds.
         /// </summary>
-        internal static string ReconnectingInTen {
+        public static string ReconnectingInTen {
             get {
                 return ResourceManager.GetString("ReconnectingInTen", resourceCulture);
             }
@@ -444,7 +444,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Response string is not in the correct format..
         /// </summary>
-        internal static string ResponseFormatError {
+        public static string ResponseFormatError {
             get {
                 return ResourceManager.GetString("ResponseFormatError", resourceCulture);
             }
@@ -453,7 +453,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to You don&apos;t need IRC to talk to yourself..
         /// </summary>
-        internal static string SelfMessageError {
+        public static string SelfMessageError {
             get {
                 return ResourceManager.GetString("SelfMessageError", resourceCulture);
             }
@@ -462,7 +462,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The target is not a valid nickname or channel name..
         /// </summary>
-        internal static string TargetNameFormatError {
+        public static string TargetNameFormatError {
             get {
                 return ResourceManager.GetString("TargetNameFormatError", resourceCulture);
             }
@@ -471,7 +471,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to You have reached the channel limit on this server ({0}).{1}{1}Leave a channel before joining a new one..
         /// </summary>
-        internal static string TooManyChannels {
+        public static string TooManyChannels {
             get {
                 return ResourceManager.GetString("TooManyChannels", resourceCulture);
             }
@@ -480,7 +480,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to There are more passwords supplied than channel names..
         /// </summary>
-        internal static string TooManyPasswords {
+        public static string TooManyPasswords {
             get {
                 return ResourceManager.GetString("TooManyPasswords", resourceCulture);
             }
@@ -489,7 +489,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Set by {0}.
         /// </summary>
-        internal static string TopicAuthorOnly {
+        public static string TopicAuthorOnly {
             get {
                 return ResourceManager.GetString("TopicAuthorOnly", resourceCulture);
             }
@@ -498,7 +498,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Set by {0} on {1}.
         /// </summary>
-        internal static string TopicInfo {
+        public static string TopicInfo {
             get {
                 return ResourceManager.GetString("TopicInfo", resourceCulture);
             }
@@ -507,7 +507,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Topic information unavailable..
         /// </summary>
-        internal static string TopicInfoUnavailable {
+        public static string TopicInfoUnavailable {
             get {
                 return ResourceManager.GetString("TopicInfoUnavailable", resourceCulture);
             }
@@ -516,7 +516,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Set on {0}.
         /// </summary>
-        internal static string TopicTimeOnly {
+        public static string TopicTimeOnly {
             get {
                 return ResourceManager.GetString("TopicTimeOnly", resourceCulture);
             }
@@ -525,7 +525,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to You must register your nickname first..
         /// </summary>
-        internal static string UnregisteredNicknameError {
+        public static string UnregisteredNicknameError {
             get {
                 return ResourceManager.GetString("UnregisteredNicknameError", resourceCulture);
             }
@@ -534,7 +534,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The specified channel mode is not supported..
         /// </summary>
-        internal static string UnsupportedChannelModeExceptionMessage {
+        public static string UnsupportedChannelModeExceptionMessage {
             get {
                 return ResourceManager.GetString("UnsupportedChannelModeExceptionMessage", resourceCulture);
             }
@@ -543,7 +543,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Unsupported channel modes: {0}.
         /// </summary>
-        internal static string UnsupportedChannelModes {
+        public static string UnsupportedChannelModes {
             get {
                 return ResourceManager.GetString("UnsupportedChannelModes", resourceCulture);
             }
@@ -552,7 +552,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The specified mode is not supported..
         /// </summary>
-        internal static string UnsupportedModeExceptionMessage {
+        public static string UnsupportedModeExceptionMessage {
             get {
                 return ResourceManager.GetString("UnsupportedModeExceptionMessage", resourceCulture);
             }
@@ -561,7 +561,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to UserIP command not supported by this server..
         /// </summary>
-        internal static string UserIPNotSupported {
+        public static string UserIPNotSupported {
             get {
                 return ResourceManager.GetString("UserIPNotSupported", resourceCulture);
             }
@@ -570,7 +570,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The username is not in the correct format..
         /// </summary>
-        internal static string UserNameFormatError {
+        public static string UserNameFormatError {
             get {
                 return ResourceManager.GetString("UserNameFormatError", resourceCulture);
             }
@@ -579,7 +579,7 @@ namespace Irc.Properties {
         /// <summary>
         ///   Looks up a localized string similar to The specified user was not found..
         /// </summary>
-        internal static string UserNotFound {
+        public static string UserNotFound {
             get {
                 return ResourceManager.GetString("UserNotFound", resourceCulture);
             }
