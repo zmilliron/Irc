@@ -64,6 +64,12 @@
   <ItemGroup>
     <None Include="IrcTestsKey.snk" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Irc\Irc.csproj">
+      <Project>{f78b733c-a14e-4288-a54b-7c1e28afbb90}</Project>
+      <Name>Irc</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
