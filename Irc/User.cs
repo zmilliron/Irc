@@ -119,7 +119,7 @@ namespace Irc
             {
                 return (_channels);
             }
-            set
+            private set
             {
                 if (_channels != value)
                 {

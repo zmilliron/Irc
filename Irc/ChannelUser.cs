@@ -59,7 +59,7 @@ namespace Irc
         public bool IsChannelOperator
         {
             get { return ((_channelStatus & UserChannelModes.Operator) == UserChannelModes.Operator); }
-            set
+            internal set
             {
                 if (((_channelStatus & UserChannelModes.Operator) == UserChannelModes.Operator) != value)
                 {
@@ -76,7 +76,7 @@ namespace Irc
         public bool IsVoiced
         {
             get { return ((_channelStatus & UserChannelModes.Voice) == UserChannelModes.Voice); }
-            set
+            internal set
             {
                 if (((_channelStatus & UserChannelModes.Voice) == UserChannelModes.Voice) != value)
                 {
@@ -93,7 +93,7 @@ namespace Irc
         public bool IsChannelOwner
         {
             get { return ((_channelStatus & UserChannelModes.Owner) == UserChannelModes.Owner); }
-            set
+            internal set
             {
                 if (((_channelStatus & UserChannelModes.Owner) == UserChannelModes.Owner) != value)
                 {
@@ -129,7 +129,7 @@ namespace Irc
         public bool IsHalfOperator
         {
             get { return ((_channelStatus & UserChannelModes.HalfOperator) == UserChannelModes.HalfOperator); }
-            set
+            internal set
             {
                 if (((_channelStatus & UserChannelModes.HalfOperator) == UserChannelModes.HalfOperator) != value)
                 {
@@ -146,7 +146,7 @@ namespace Irc
         public bool IsProtected
         {
             get { return ((_channelStatus & UserChannelModes.Protected) == UserChannelModes.Protected); }
-            set
+            internal set
             {
                 if (((_channelStatus & UserChannelModes.Protected) == UserChannelModes.Protected) != value)
                 {
@@ -166,7 +166,7 @@ namespace Irc
             {
                 return (_channelStatus);
             }
-            set
+            private set
             {
                 if (_channelStatus != value)
                 {

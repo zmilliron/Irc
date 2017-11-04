@@ -29,7 +29,7 @@ namespace Irc
         public bool IsOnline
         {
             get { return (_online); }
-            set
+            internal set
             {
                 if (_online != value)
                 {
@@ -45,7 +45,7 @@ namespace Irc
         public string NetworkName
         {
             get { return (_network); }
-            set
+            internal set
             {
                 if (_network != value)
                 {
