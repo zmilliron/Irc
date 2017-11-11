@@ -38,7 +38,7 @@ using (_connection = new TcpClient())
         
         if (!string.IsNullOrWhiteSpace(line))
         {
-            MessageReceived.Raise(this, new IrcMessageEventArgs(IrcMessage.Parse(line)));
+            MessageReceived?.Invoke(this, new IrcMessageEventArgs(IrcMessage.Parse(line)));
         }
     }
     while (line != null);
@@ -68,7 +68,7 @@ do
     line = await inputStream.ReadLineAsync();
     if (line != null)
     {
-        MessageReceived.Raise(this, new IrcMessageEventArgs(IrcMessage.Parse(line)));
+        MessageReceived?.Invoke(this, new IrcMessageEventArgs(IrcMessage.Parse(line)));
     }
 }
 while (line != null);
